@@ -9,9 +9,13 @@
 
 //console.log(`Hello ${process.argv[2]}`);
 
-/*const url = new URL('https://www.youtube.com/path/name#pidor');
+/*
+const url = new URL('https://www.youtube.com/path/name#pidor');
 console.log(url.hostname);
 console.log(url.href);
 console.log(url.pathname);
+const url = new URL('https://www.youtube.com/path/name#pidor');
 console.log(url.hash);
 */
+
+
