@@ -1,1 +1,10 @@
+body {
+    background-color: rgb(251, 168, 231);
+    font-family: "Arial Black", Helvetica, sans-serif;
+    font-size: 16em;
+    color: black;
+  }
 
+  h1 {
+    text-align: center;
+  }
