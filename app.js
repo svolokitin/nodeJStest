@@ -3,8 +3,12 @@ import module fs: file system, he is working with file of system
 */
 const fs = require('fs');
 
-fs.mkdir('./dir_file', () => {});
-fs.writeFile('./dir_file/file1.txt', 'idi nahui', (error) => {});
+fs.mkdir('./dir_file', () => {
+    console.log('+dir_file created')
+});
+fs.writeFile('./dir_file/file1.txt', 'idi nahui', (error) => {
+    error ? console.log(error) : null;
+});
 
 //reading files
 fs.readFile('./dir_file/file1.txt', 'utf-8', (error, data) => {

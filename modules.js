@@ -1,8 +1,7 @@
-const os = require('os'); //module give info about operation system
-const {userName: user, sayHi} = require('./test'); //деструкторизация 
+exports.myDateTime = function () {
+    return Date();
+};
 
-const surname = 'Anton';
-
-console.log(sayHi(surname));
-console.log(os.platform(), os.release());
+//console.log(sayHi(surname));
+//console.log(os.platform(), os.release());
 

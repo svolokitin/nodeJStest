@@ -1,8 +1,7 @@
-const userName = 'Serhii';
+const http = require('http');
 
-const sayHi = (userName) => `Hello, my name is ${userName}`;
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080); 
 
-module.exports = {
-    userName,
-    sayHi,
-}
